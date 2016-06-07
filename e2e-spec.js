@@ -1,8 +1,11 @@
 
 describe('QuickStart E2E Tests', function () {
 
-	var expectedMsg = 'My First Angular 2 App';
+  // The original message when we ran the tests
+  // var expectedMsg = 'My First Angular 2 App';
 
+  // The message at the end of the Play-by-Play
+	var expectedMsg = 'Customer App';
 
   beforeEach(function () {
     browser.get('');
