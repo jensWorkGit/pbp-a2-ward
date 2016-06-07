@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 import { CustomersComponent, CustomerService } from './customer/index';
 
 @Component({
-  moduleId: __moduleName,
+  moduleId: module.id,
   selector: 'my-app',
   templateUrl: 'app.component.html',
   directives: [CustomersComponent],

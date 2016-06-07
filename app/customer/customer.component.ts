@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  moduleId: __moduleName,
+  moduleId: module.id,
   selector: 'app-customer', // <app-customer>
   templateUrl: 'customer.component.html'
 })

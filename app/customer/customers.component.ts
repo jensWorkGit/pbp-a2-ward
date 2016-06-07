@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs/Rx';
+// import { Observable } from 'rxjs/Rx';
 
 import { CustomerComponent } from './customer.component';
 import { CustomerService } from './customer.service';
 
 @Component({
-  moduleId: __moduleName,
+  moduleId: module.id,
   selector: 'app-customers',
   templateUrl: 'customers.component.html',
   directives: [CustomerComponent]
