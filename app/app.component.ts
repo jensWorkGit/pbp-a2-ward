@@ -1,4 +1,4 @@
-import { Component } from 'angular2/core';
+import { Component } from '@angular/core';
 
 // import { CustomerService } from './customer/customer.service';
 // import { CustomersComponent } from './customer/customers.component';

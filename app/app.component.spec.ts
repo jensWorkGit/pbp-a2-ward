@@ -6,12 +6,12 @@ import {
   describe, ddescribe, xdescribe,
   beforeEach, beforeEachProviders, withProviders,
   inject, injectAsync, TestComponentBuilder
-} from 'angular2/testing';
+} from '@angular/testing';
 
-import { By }             from 'angular2/platform/browser';
-import { provide }        from 'angular2/core';
-import { ViewMetadata }   from 'angular2/core';
-import { PromiseWrapper } from 'angular2/src/facade/promise';
+import { By }             from '@angular/platform-browser-dynamic';
+import { provide }        from '@angular/core';
+import { ViewMetadata }   from '@angular/core';
+import { PromiseWrapper } from '@angular/src/facade/promise';
 
 interface Done {
   (): void;
